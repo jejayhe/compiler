@@ -1,0 +1,2 @@
+set tags+=/usr/class/cs143/include/PA#/PA#_tags
+au BufWritePost *cc,*h silent! !find -name '*.cc' -or -name '*.h' -exec ctags {} + &
